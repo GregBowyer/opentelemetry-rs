@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc bb8f44a394fff951481eb1cbeabe76af52b3de2e3810fafd5326c87070eaf60e # shrinks to s = "¡"
+cc fab68618d6e59f659402bd7ffc1f998401da664c561fda2c8b3c74009c00fa32 # shrinks to s = "aa\u{0}aAa\u{0}A\u{0} 0aaAa00aA  \u{0} A Aa\u{0}a0Aa\u{0}a  \u{0}aA\u{0}0  AAAa \u{0}A .8?.~s$Zw\\L\u{1b}/@\tI6a\'\':\t?Z\u{7f}\"\\ru*l+g\tl\r:}<C*/p:M-:$&\u{e}$B:\r\u{18}%K%Ft1.w,.\u{0}f%J*/?\"~%\u{0}]\\\u{1b}CE$?\r8Vt=*&u%nX~`\'T6*/.l\t4--.:/\u{11}`H:NKdh:V\t&{Y?2({\t\u{1}pSAV31\'\r$$a@nN4m\u{7}`?V\u{0}6/X$$?R\n$x\tN$p.\u{13}$Z`\n_\u{11}\u{1b}^&/q5\u{8}O%$\\IC\"\n?iSi]h=i/y#KA\\2&E"

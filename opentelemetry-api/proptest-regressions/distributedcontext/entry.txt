@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc c042d9ff59b3a6d5be7cdd079836e1e1cb901bad90245f9f8dc4eb94ff567ecf # shrinks to s = "¡"
+cc ae1897d1331c3d29580fc1ce5accdd410b8ffcae1d366dc3ffed5f9945f099bb # shrinks to s = "0\u{0}AA00 \u{0}AA00\u{0}\u{0} A aa\u{0}\u{0} \u{0}\u{0}0 \u{0}   Aa\u{0}\u{0}0A  A0aAa  aAAA  A0 a  A\u{0}a00aAa\u{0}A\u{0} 0\u{0}aa\u{0}A0 0A\u{0}a 0\u{0}aa   \u{0}a \u{0}B\t\"\u{b}s\':\r\u{b}$a{ W<\n\u{19}Fn\t\u{7}/M8{\u{b}jb?\\%?V\u{17}\u{7f}\\`\n`Cu(eYC\n/=?\"x.ml<r>\u{7f}\u{1b}\u{0}C?8 \rd]\u{b}\tEEuA*AP<X:(h?9\u{1b}\u{1d}.Pb\u{1f}\u{3}8&\\\u{0}[*\"Mw/\r*\u{14}\u{0}\u{7f}%{?!hw~B&gl<_x6n*&\u{2}Bjk=>\u{7f}C}\n{:|_\t-V`9i\u{7f}.5\"\r\r}\u{0}\t%\t?\"&\u{15}.\"/CL"
