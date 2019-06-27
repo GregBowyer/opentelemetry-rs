@@ -1,7 +1,9 @@
 [package]
 name = "opentelemetry_api"
 version = "0.1.0"
-authors = ["Greg Bowyer"]
+authors = ["Greg Bowyer <gbowyer@fastmail.co.uk>"]
+description = "The Opentelemetry API expressed in Rust"
+license = "Apache-2.0"
 edition = "2018"
 
 [dependencies]
