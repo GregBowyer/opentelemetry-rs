@@ -1,2 +1,2 @@
 [workspace]
-members = ["opentelemetry-api"]
+members = ["opentelemetry-api", "opentelemetry-sdk"]

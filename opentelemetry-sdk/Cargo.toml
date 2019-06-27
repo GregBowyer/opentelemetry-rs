@@ -1,0 +1,11 @@
+[package]
+name = "opentelemetry_sdk"
+version = "0.1.0"
+authors = ["Greg Bowyer <gbowyer@fastmail.co.uk>"]
+description = "The Opentelemetry SDK expressed in Rust"
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]
+opentelemetry_api = { version = "0.1.0", path = "../opentelemetry-api" }
+protobuf = { version = "2.6.2", features = ["with-bytes"] }
